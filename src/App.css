@@ -36,3 +36,98 @@
     transform: rotate(360deg);
   }
 }
+/* Scroll Bar */
+::-webkit-scrollbar {
+  width: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: black; 
+  border-radius: 6px;
+  border: 3px solid #f1f1f1;
+}
+
+* {
+  scrollbar-width: thin;
+  scrollbar-color: black #f1f1f1;
+}
+
+
+/* Navbar css */
+.content{
+  justify-content: end;
+  margin-right: 10%;
+}
+.navheading{
+  display: flex;
+  margin-left: 10%;
+}
+.navheading .navbar-brand {
+  text-decoration: none;
+  transition: color 0.3s ease-in-out;
+  color: limegreen;
+}
+.navheading .navbar-brand:hover {
+  color: white;
+  cursor: pointer;
+}
+.sticky-navbar {
+  position: sticky;
+  top: 0;
+  z-index: 1020;
+}
+
+/* Profile css */
+
+.full-width {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.text-center {
+  text-align: center;
+}
+.full-page-content {
+  margin: 15%;
+}
+
+/* Services */
+
+.custom-card {
+  transition: background-color 0.3s ease-in-out, color 0.3s ease-in-out; /* Smooth transition for background and text color */
+}
+
+.custom-card:hover {
+  background-color: #4CAF50;
+  color: white;
+}
+
+.custom-card:hover button {
+  background-color: white !important;
+  color: #4CAF50 !important;
+}
+
+.custom-card:hover button.MuiButton-contained {
+  background-color: white !important;
+  color: #4CAF50 !important;
+}
+
+
+.custom-card:hover .MuiTypography-root {
+  color: white !important;
+}
+
+/* Experience */
+.buttonend{
+  display: flex;
+  justify-content: flex-end;
+}
+.first{
+  display: flex;
+  justify-content:flex-start;
+}
