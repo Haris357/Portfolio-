@@ -9,23 +9,13 @@ To set up the project, follow these steps:
 
 Clone the repository to your local machine:
 
-bash
-Copy code
-git clone [URL to your repository]
+git clone https://github.com/Haris357/GDSC-Task.git
 Navigate to the project directory:
 
-bash
-Copy code
-cd [Your project's directory]
+cd (Your project's directory)
 Install the required dependencies:
-
-bash
-Copy code
 npm install
-Running the Application
-To start the application, run the following command in the project directory:
 
-bash
-Copy code
+To start the application, run the following command in the project directory:
 npm start
 This will start the development server and open the application in your default web browser. If it doesn't open automatically, you can visit http://localhost:3000 in your browser to view the application.
