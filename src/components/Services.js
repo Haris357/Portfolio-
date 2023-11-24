@@ -8,7 +8,7 @@ import InfoOutlinedIcon from '@mui/icons-material/InfoOutlined';
 const Services = () => {
   return (
     <>
-        <div className='full-page-content'>
+        <div className='full-page-content' id='servicesection' >
             <Grid container spacing={2} >
                 <Grid item xs={12} md={4} >
                 <Container maxWidth='sm' className='p-2' sx={{

@@ -4,7 +4,7 @@ import myimg from '../img/MyImg2.jpg';
 const Profile = () => {
   return (
     <>
-      <div className='full-page-content' >
+      <div className='full-page-content' id='homesection'>
         <Grid container spacing={2}>
           <Grid item xs={12} md={4} align="center">
             <Avatar alt="Your Name" src={myimg} sx={{ width: 300, height: 300 }} />
